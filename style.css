@@ -49,6 +49,13 @@
     border: solid black;
 }
 
+.free{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    border: solid black;
+}
+
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -85,6 +92,10 @@ section#workings .card{
     height: 400px;
 }
 
+section#started{
+    width: 100%;
+    background-color: #9792e4;
+}
 
 
 
@@ -155,6 +166,13 @@ section#workings .card{
         background-color: salmon;
         border: solid black;
         margin-top: 3rem;
+    }
+
+    .free{
+        width: 100%;
+        height: 500px;
+        background-color:deeppink;
+        border: solid black;
     }
 
     section#partners .cards{
@@ -245,16 +263,24 @@ section#workings .card{
         width: 70%;
         height: 500px;
         border: solid black;
-        background-color: red;
+        background-color:chartreuse;
         margin-top: 3rem;
     }
     .image{
         width: 30%;
         height: 500px;
-        background-color: salmon;
+        background-color:aquamarine;
         border: solid black;
         margin-top: 3rem;
     }
+
+    .free{
+        width: 100%;
+        height: 500px;
+        background-color:khaki;
+        border: solid black;
+    }
+
 
 
     section#partners .cards{
