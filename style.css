@@ -34,6 +34,21 @@
     border: solid black;
 }
 
+.paragraph{
+    width: 100%;
+    height: 600px;
+    border: solid black;
+    background-color: orange;
+    margin-top: 3rem;
+}
+
+.image{
+    width: 100%;
+    height: 300px;
+    background-color: darkseagreen;
+    border: solid black;
+}
+
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -59,6 +74,17 @@ section#planning{
 section#partners .card{
     background-color: #9792e4;
 }
+
+section#workings{
+    width: 100%;
+    background-color: #9792e4;
+}
+
+section#workings .card{
+    background-color: white;
+    height: 400px;
+}
+
 
 
 
@@ -106,10 +132,31 @@ section#partners .card{
     .strategic{
         background-color:crimson;
         width: 100%;
-        height: 350px;
+        height: 250px;
         margin-bottom: 2rem;
         border: solid black;
     }
+
+    .other{
+        display: flex;
+    }
+    
+
+    .paragraph{
+        width: 55%;
+        height: 500px;
+        border: solid black;
+        background-color: red;
+        margin-top: 3rem;
+    }
+    .image{
+        width: 45%;
+        height: 500px;
+        background-color: salmon;
+        border: solid black;
+        margin-top: 3rem;
+    }
+
     section#partners .cards{
         flex-direction: column;
     }
@@ -117,6 +164,16 @@ section#partners .card{
     section#partners .card{
         width: 100%;
         height: 180px;
+    }
+
+    section#workings .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section#workings .card{
+        width: calc(100%/2);
+        height: 250px;
     }
 }
 
@@ -179,6 +236,27 @@ section#partners .card{
         display: flex;
     }
 
+    .other{
+        display: flex;
+    }
+    
+
+    .paragraph{
+        width: 70%;
+        height: 500px;
+        border: solid black;
+        background-color: red;
+        margin-top: 3rem;
+    }
+    .image{
+        width: 30%;
+        height: 500px;
+        background-color: salmon;
+        border: solid black;
+        margin-top: 3rem;
+    }
+
+
     section#partners .cards{
         flex-direction: column;
     }
@@ -186,5 +264,15 @@ section#partners .card{
     section#partners .card{
         width: 100%;
         height: 250px;
+    }
+
+    section#workings .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section#workings .card{
+        width: calc(100%/3);
+        height: 300px;
     }
 }
