@@ -56,6 +56,11 @@ section#planning{
     background-color: #9792e4;
 }
 
+section#partners .card{
+    background-color: #9792e4;
+}
+
+
 
 /* RESPONSIVE */
 
@@ -105,6 +110,14 @@ section#planning{
         margin-bottom: 2rem;
         border: solid black;
     }
+    section#partners .cards{
+        flex-direction: column;
+    }
+
+    section#partners .card{
+        width: 100%;
+        height: 180px;
+    }
 }
 
 
@@ -118,14 +131,14 @@ section#planning{
 
     header div{
         height: 100%;
-        width: 500px;
+        width: 30%;
         background-color: yellow;
         border: solid black;
     }
 
     header nav{
         height: 100%;
-        width: 700px;
+        width: 52%;
         background-color: yellow;
         border: solid black;
     }
@@ -164,5 +177,14 @@ section#planning{
 
     .development{
         display: flex;
+    }
+
+    section#partners .cards{
+        flex-direction: column;
+    }
+
+    section#partners .card{
+        width: 100%;
+        height: 250px;
     }
 }
