@@ -130,7 +130,7 @@ section#piè{
 
     header div,nav{
         height: 100%;
-        width: 150px;
+        width: 30%;
         background-color: lightgreen;
         border: solid black;
     }
