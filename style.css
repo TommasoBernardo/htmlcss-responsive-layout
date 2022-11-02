@@ -266,6 +266,7 @@ section#piè{
 
     .cards .card:first-child{
         width: calc((100%/3)*2);
+        display: flex;
     }
     
     .cards .card{
@@ -277,11 +278,11 @@ section#piè{
     }
 
     .demo{
-        width: 90%;
-        height: calc(100%/2);
+        width: 50%;
+        height: 90%;
         border: solid black;
         background-color: greenyellow;
-        margin: 0 auto;
+        margin-top: 1rem;
     }
     
 
