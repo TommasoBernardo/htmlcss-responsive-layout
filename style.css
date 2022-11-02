@@ -77,7 +77,7 @@ header div,nav{
     }
     
     .cards .card{
-        background-color:darkred;
+        background-color: violet;
         width: calc(100%/3);
         height: 300px;
         margin-bottom: 2rem;
@@ -109,7 +109,7 @@ header div,nav{
     }
 
     .container{
-        width: 900px;
+        width: 950px;
         padding: 2rem;
         margin: 0 auto;
     }
