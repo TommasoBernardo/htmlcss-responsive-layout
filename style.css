@@ -5,6 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --header-bg-color:#0084fd ;
+    --card-bg-color:#b5ddff;
+    --h2-color:#0888fd;
+    --button-bg-color:#0084fd ;
+}
 .flex{
     display: flex;
 }
@@ -27,18 +33,14 @@
 }
 
 .cards .card{
-    background-color: coral;
+    background-color: var(--card-bg-color);
     width: 100%;
-    height: 300px;
     margin-bottom: 2rem;
-    border: solid black;
+    border-radius: 20px;
 }
 
 .demo{
     width: 90%;
-    height: calc(100%/2);
-    border: solid black;
-    background-color: magenta;
     margin: 0 auto;
 }
 
@@ -71,6 +73,38 @@
     border: solid white;
 }
 
+.button-blue{
+    color: white;
+    background-color: var(--button-bg-color);
+    border: none;
+    border-radius: 20px;
+    padding: .3rem 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: center;
+
+}
+.images{
+    width: 200px;       
+}
+.align{
+    vertical-align: super;
+}
+.blue{
+    width: 100px;
+    margin-top: 2rem;
+}
+
+.small-container{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.fa-solid{
+    margin-top: 2rem;
+    color: var(--h2-color);
+    font-size: 7rem;
+}
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -78,7 +112,7 @@ body{
 header{
     width: 100%;
     height: 100px;
-    background-color: #0084fd;
+    background-color: var(--header-bg-color);
 }
 
 header div,nav{
@@ -128,6 +162,29 @@ section#piè{
     width: 100%;
     background-color:#333333;
 }
+section#introduction .small-container .apple{
+    width: 20px;
+    filter: invert(1);
+}
+
+section#introduction .small-container p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+section#introduction .card  p{
+    font-size: .1.5;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+section#introduction   h2{
+    text-align: center;
+    color: var(--h2-color);
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
 
 
 /* RESPONSIVE */
@@ -162,20 +219,22 @@ section#piè{
         margin: 0 auto;
     }
 
+    
+
     .cards{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .cards .card:first-child{
-        width: calc((100%/3)*2);
+        width: calc(((100% - 1rem) / 3) * 2);
     }
     
     .cards .card{
         background-color: violet;
-        width: calc(100%/3);
+        width: calc((100% - 1rem) / 3);
         height: 300px;
-        margin-bottom: 2rem;
         border: solid black;
     }
 
