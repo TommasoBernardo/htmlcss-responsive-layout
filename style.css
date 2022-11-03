@@ -10,6 +10,7 @@
     --card-bg-color:#b5ddff;
     --h2-color:#0888fd;
     --button-bg-color:#0084fd ;
+    --bg-color-lille:#9792e4;
 }
 .flex{
     display: flex;
@@ -25,11 +26,8 @@
 }
 
 .strategic{
-    background-color: pink;
     width: 100%;
-    height: 300px;
     margin-bottom: 1rem;
-    border: solid black;
 }
 
 .cards .card{
@@ -119,6 +117,21 @@
     font-size: 7rem;
 }
 
+.fa-arrow-down{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+
+}
+.cerchio{
+    background-color: var(--bg-color-lille);
+    border-radius: 100%;
+    text-align: center;
+    width: 80px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
 .get{
     font-size: .1.7rem;
     line-height: 1.5;
@@ -126,6 +139,34 @@
     text-align: center;
 }
 
+.test{
+    text-align: center;
+    width: 100%;
+}
+
+.dimension{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.planning2{
+    width: 100%;
+    background-color: white;
+    border-radius: 80px;
+    text-align: center;
+}
+
+.titolo{
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.lorem{
+    color: white;
+    line-height: 2;
+    font-size: 1rem;
+}
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -192,12 +233,23 @@ section#introduction .small-container p{
     font-size: 1.2rem;
     line-height: 1.5;
 }
+
+section#planning .planning2 h2{
+    margin-bottom: 2rem;
+}
+
+section#planning .planning2 p{
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
 p:first-child{
     text-align: center;
     font-size: .1.7rem;
     line-height: 1.5rem;
     padding-bottom: 2rem;
 }
+
+
 
 
 
@@ -297,11 +349,8 @@ h2:first-child{
     
 
     .strategic{
-        background-color:crimson;
         width: 100%;
-        height: 250px;
         margin-bottom: 2rem;
-        border: solid black;
     }
 
     .other{
@@ -356,8 +405,59 @@ h2:first-child{
         width: calc(100%/2);
         height: 250px;
     }
-}
+    
+    .test{
+        text-align: center;
+        width: 100%;
+    }
 
+    .dimension{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .planning2{
+        width: 100%;
+        background-color: white;
+        border-radius: 80px;
+        text-align: center;
+    }
+
+    .titolo{
+        color: white;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-size: 4rem;
+        text-align: left;
+    }
+
+    .lorem{
+        color: white;
+        line-height: 2;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    section#planning .planning2 h2{
+        margin-bottom: 2rem;
+    }
+
+    section#planning .planning2 p{
+        line-height: 1.7;
+        font-size: 1.2rem;
+    }
+
+    .cerchio{
+        background-color: var(--bg-color-lille);
+        border-radius: 100%;
+        text-align: center;
+        width: 80px;
+        margin-left: 26rem;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+
+}
+}
 
 /* DESKTOP */
 @media screen and (min-width:992px){
@@ -439,7 +539,6 @@ h2:first-child{
 
     .fa-solid{
         margin-top: 2rem;
-        color: var(--h2-color);
         font-size: 5rem;
     }
 
@@ -485,12 +584,9 @@ h2:first-child{
     
 
     .strategic{
-        background-color: pink;
-        width: calc(100%/2);
-        height: 500px;
+        width: calc(100%/2);    
         margin-bottom: 1rem;
         margin-top: 3rem;
-        border: solid black;
     }
 
     .development{
@@ -549,4 +645,56 @@ h2:first-child{
         width: calc(100%/3);
         height: 300px;
     }
+
+    .test{
+        text-align: center;
+        width: 100%;
+    }
+
+    .dimension{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .planning2{
+        width: 100%;
+        background-color: white;
+        border-radius: 80px;
+        text-align: center;
+    }
+
+    .titolo{
+        color: white;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .lorem{
+        color: white;
+        line-height: 2;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    section#planning .planning2 h2{
+        margin-bottom: 2rem;
+    }
+
+    section#planning .planning2 p{
+        line-height: 1.7;
+        font-size: 1.2rem;
+    }
+
+    .cerchio{
+        background-color: var(--bg-color-lille);
+        border-radius: 100%;
+        text-align: center;
+        width: 100px;
+        margin-left: 11rem;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+
+}
 }
