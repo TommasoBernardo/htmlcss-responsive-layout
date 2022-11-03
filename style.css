@@ -82,10 +82,22 @@ header{
 }
 
 header div,nav{
-    height: 100%;
     width: 30%;
-    background-color: blueviolet;
-    border: solid black;
+}
+
+header img{
+    width: 60%;
+    margin: 2rem;
+}
+
+header nav img{
+    width: 40%;
+    margin: 1.5rem 1rem;
+    filter: invert(1);
+}
+
+header nav ul{
+    display: none;
 }
 
 section#planning{
@@ -129,10 +141,18 @@ section#piè{
     }
 
     header div,nav{
-        height: 100%;
         width: 30%;
-        background-color: lightgreen;
-        border: solid black;
+    }
+
+    header img{
+        width: 30%;
+        margin: 2rem;
+    }
+    
+    header nav img{
+        width: 20%;
+        margin: 1rem 11rem;
+        filter: invert(1);
     }
 
     
@@ -240,7 +260,6 @@ section#piè{
     }
 
     header div{
-        height: 100%;
         width: 30%;
         background-color: yellow;
         border: solid black;
@@ -251,6 +270,20 @@ section#piè{
         width: 52%;
         background-color: yellow;
         border: solid black;
+    }
+
+    header img{
+        width: 80px;
+        margin-left: 70%;
+    }
+    
+    header nav img{
+        display: none;
+    }
+
+    
+    header nav ul{
+    list-style: none;
     }
 
     .container{
