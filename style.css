@@ -261,15 +261,11 @@ section#piè{
 
     header div{
         width: 30%;
-        background-color: yellow;
-        border: solid black;
     }
 
     header nav{
         height: 100%;
-        width: 52%;
-        background-color: yellow;
-        border: solid black;
+        width: 52%; 
     }
 
     header img{
@@ -283,9 +279,27 @@ section#piè{
 
     
     header nav ul{
-    list-style: none;
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 2rem;
     }
 
+    header nav ul li{
+        padding-left: 1rem;
+        padding-top: 2rem;
+        color: white;
+    }
+
+    header nav ul li button{
+        background-color: white;
+        color: black;
+        border-radius: 20%;
+        padding: .5rem;
+        border: none;
+        
+    }
+
+    
     .container{
         width: 950px;
         padding: 2rem;
