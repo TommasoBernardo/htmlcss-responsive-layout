@@ -54,9 +54,6 @@
 
 .free{
     width: 100%;
-    height: 400px;
-    background-color: aqua;
-    border: solid black;
 }
 
 .text{
@@ -355,6 +352,51 @@ section#about-as article{
     padding-bottom: 2rem;
 }
 
+.star{
+    font-size: 1rem;
+    padding-top: 2rem;
+    color:gray;
+    text-align: center;
+}
+
+section#started h3{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    color:white;
+    text-align: center;
+}
+
+section#started .gratis{
+    font-size: 3rem;
+    padding-top: 2rem;
+    color:#fdc15f;
+    text-align: center;
+}
+
+section#started p{
+    font-size: 1rem;
+    padding-top: 2rem;
+    color:white;
+    text-align: center;
+}
+
+.white{
+    border: none;
+    font-size: 1rem;
+    border-radius: 40px;
+    background-color: white;
+    color: var(--bg-color-lille);
+    padding: 1rem 4rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.bottone{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
 
 /* RESPONSIVE */
 
@@ -465,9 +507,6 @@ section#about-as article{
 
     .free{
         width: 100%;
-        height: 500px;
-        background-color:deeppink;
-        border: solid black;
     }
 
     .text{
@@ -698,6 +737,46 @@ section#partners .cards .card p{
         margin-top: 2rem;
         text-align: center;
     }
+
+    .bottone{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    
+    section#started h3{
+        font-size: 2.5rem;
+        padding-top: 2rem;
+        color:white;
+        text-align: center;
+    }
+    
+    section#started .gratis{
+        font-size: 4rem;
+        padding-top: 2rem;
+        color:#fdc15f;
+        text-align: center;
+    }
+    
+    section#started p{
+        font-size: 1.2rem;
+        padding-top: 2rem;
+        color:white;
+        text-align: center;
+    }
+    
+    .white{
+        border: none;
+        font-size: 1rem;
+        border-radius: 40px;
+        background-color: white;
+        color: var(--bg-color-lille);
+        padding: 1rem 4rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
     
 
 
@@ -852,9 +931,6 @@ section#partners .cards .card p{
 
     .free{
         width: 100%;
-        height: 500px;
-        background-color:khaki;
-        border: solid black;
     }
 
     .text{
