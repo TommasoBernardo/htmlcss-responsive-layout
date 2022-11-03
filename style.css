@@ -167,6 +167,10 @@
     line-height: 2;
     font-size: 1rem;
 }
+
+.column{
+    flex-direction: column;
+}
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -251,6 +255,40 @@ p:first-child{
 
 
 
+
+section#partners .cards .card:first-child{
+    background-color: white;
+}
+
+section#partners .cards .card h3{
+    font-size: 2rem;
+    color: var(--bg-color-lille);   
+    margin-bottom: 2rem;
+}
+
+section#partners .cards .card p{
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+.testimonial{
+    text-align: center;
+    margin-top: 2rem ;
+    margin-bottom: 3rem;
+}
+
+.radius{
+    border-radius: 100%;    
+    width: 200px;
+    overflow: hidden;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.descrizione{
+    color: white;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 
 h2:first-child{
@@ -393,8 +431,9 @@ h2:first-child{
 
     section#partners .card{
         width: 100%;
-        height: 180px;
+        
     }
+
 
     section#workings .cards{
         display: flex;
@@ -455,8 +494,118 @@ h2:first-child{
         margin-left: 26rem;
         margin-top: 2rem;
         padding-bottom: 1rem;
+    }
 
+    section#partners .cards .card:first-child{
+    background-color: white;
 }
+
+section#partners .cards .card h3{
+    font-size: 2rem;
+    color: var(--bg-color-lille);   
+    margin-bottom: 2rem;
+}
+
+section#partners .cards .card p{
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+.testimonial{
+    text-align: center;
+    margin-top: 2rem ;
+    margin-bottom: 3rem;
+}
+
+.radius{
+    border-radius: 100%;    
+    width: 200px;
+    overflow: hidden;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.descrizione{
+    color: white;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+    h2:first-child{
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        color:var(--h2-color)
+    }
+
+
+
+    section#partners .cards .card:first-child{
+        background-color: white;
+    }
+    
+    section#partners .cards .card h3{
+        font-size: 2rem;
+        color: var(--bg-color-lille);   
+        margin-bottom: 2rem;
+    }
+    
+
+    
+    .testimonial{
+        text-align: center;
+        margin-top: 2rem ;
+        margin-bottom: 3rem;
+    }
+    
+    .radius{
+        border-radius: 100%;    
+        width: 200px;
+        overflow: hidden;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+    .descrizione{
+        color: white;
+        margin-top: .5rem;
+        padding-bottom: 1rem;
+    }
+    
+    
+    h2:first-child{
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        color:var(--h2-color)
+    }
+
+    .test {
+        text-align: center;
+        display: flex   ;
+        width: 100%;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .nome{
+        text-align: center;
+        line-height: 2;
+        font-size: 1.3rem;
+    }
+
+    .biografia{
+        line-height: 2;
+        font-size: 1.3rem;
+        padding-top: 2rem;
+        text-align: left;
+    }
+
+
 }
 
 /* DESKTOP */
@@ -695,6 +844,64 @@ h2:first-child{
         margin-left: 11rem;
         margin-top: 2rem;
         padding-bottom: 1rem;
+    }
 
-}
+    .testimonial{
+        text-align: center;
+        margin-top: 2rem ;
+        margin-bottom: 3rem;
+    }
+    
+    .radius{
+        border-radius: 100%;    
+        width: 200px;
+        overflow: hidden;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+    .descrizione{
+        color: white;
+        margin-top: .5rem;
+        padding-bottom: 1rem;
+    }
+    
+    
+    h2:first-child{
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        color:var(--h2-color)
+    }
+
+    .test {
+        text-align: center;
+        display: flex   ;
+        width: 100%;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .nome{
+        text-align: left;
+        line-height: 2;
+        font-size: 1.3rem;
+        margin-left: 14rem  
+    }
+
+    .biografia{
+        line-height: 2;
+        font-size: 1.3rem;
+        padding-top: 2rem;
+        text-align: left;
+    }
+
+    section#partners .cards .card p{
+        line-height: 2;
+        font-size: 1rem;
+    }
 }
